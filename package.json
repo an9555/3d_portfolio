@@ -1,6 +1,4 @@
-{
-  "name": "3d_portfoilo",
-  "homepage":"https://an9555.github.io/3d_portfolio/",
+{ "name": "3d_portfoilo",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+   
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
